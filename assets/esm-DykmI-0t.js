@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./web-DHy_RzuI.js","./apk-CQYB7h78.js","./tickets-C-8lqzaa.js","./preload-helper-HclGiUj8.js","./apk-DTKklm7w.css"])))=>i.map(i=>d[i]);
-import{t as e}from"./preload-helper-HclGiUj8.js";import{rn as t}from"./apk-CQYB7h78.js";var n=t(`Browser`,{web:()=>e(()=>import(`./web-DHy_RzuI.js`).then(e=>new e.BrowserWeb),__vite__mapDeps([0,1,2,3,4]),import.meta.url)});export{n as Browser};
