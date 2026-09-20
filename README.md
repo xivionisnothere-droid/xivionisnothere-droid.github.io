@@ -1,1 +1,1 @@
-VoxelDere AI public preview: https://xivionisnothere-droid.github.io/
+VoxDereAi public preview: https://xivionisnothere-droid.github.io/
