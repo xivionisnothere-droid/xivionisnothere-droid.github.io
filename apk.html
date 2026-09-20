@@ -9,6 +9,26 @@
     <meta name="theme-color" content="#070406" />
     <title>VoxDereAi</title>
     <link rel="icon" href="./favicon.svg" />
+    <script>
+      (function () {
+        try {
+          var land = false;
+          try {
+            land = window.matchMedia("(orientation: landscape)").matches;
+          } catch (e) {}
+          if (!land && window.innerWidth > window.innerHeight + 12) land = true;
+          var hand = false;
+          try {
+            hand =
+              (window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform()) ||
+              window.matchMedia("(pointer: coarse)").matches ||
+              Math.min(window.innerWidth, window.innerHeight) <= 540;
+          } catch (e2) {}
+          document.documentElement.setAttribute("data-orient", land ? "landscape" : "portrait");
+          if (hand) document.documentElement.setAttribute("data-handset", "yes");
+        } catch (e3) {}
+      })();
+    </script>
     <style>
       html,
       body,
@@ -28,10 +48,10 @@
         font-size: 22px;
       }
     </style>
-    <script type="module" crossorigin src="./assets/apk-VMSiCLkM.js"></script>
+    <script type="module" crossorigin src="./assets/apk-DXhYoWZd.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/preload-helper-HclGiUj8.js">
-    <link rel="modulepreload" crossorigin href="./assets/tickets-AY1x_2C3.js">
-    <link rel="stylesheet" crossorigin href="./assets/apk-CZ6VGDbw.css">
+    <link rel="modulepreload" crossorigin href="./assets/tickets-CMw8gSXP.js">
+    <link rel="stylesheet" crossorigin href="./assets/apk-C3h0gVSx.css">
   </head>
   <body>
     <div id="root"><div id="boot">VoxDereAi</div></div>
