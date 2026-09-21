@@ -93,7 +93,7 @@
       if (!/^ASK VOX$/i.test(txt(buttons[i]))) continue;
       if (buttons[i].style.display === "none") continue;
       var ptxt = txt(buttons[i].parentElement);
-      if (/Learn v6/i.test(ptxt) || /^Notes\b/i.test(ptxt)) hide(buttons[i]);
+      if (/Learn v6/i.test(ptxt) || /^Notes/i.test(ptxt)) hide(buttons[i]);
     }
   }
   var ticking = false;
