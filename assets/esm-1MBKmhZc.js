@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./apk-CpxeIKRD.css"])))=>i.map(i=>d[i]);
-import{t as e}from"./preload-helper-CtT0-S4g.js";import{En as t}from"./apk-Bit0c7Pg.js";var n=t(`Browser`,{web:()=>e(()=>import(`./web-pDCqWAey.js`).then(e=>new e.BrowserWeb),__vite__mapDeps([0]),import.meta.url)});export{n as Browser};
