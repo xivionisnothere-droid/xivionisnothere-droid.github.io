@@ -1,0 +1,75 @@
+{
+  "current": "v35",
+  "builds": [
+    {
+      "id": "v35",
+      "name": "DESK 5.3",
+      "at": "2026-09-19",
+      "file": "https://github.com/xivionisnothere-droid/yandere-updates/releases/download/v35/yandere-forge.apk",
+      "view": "https://github.com/xivionisnothere-droid/yandere-updates/releases/tag/v35",
+      "note": "Guest desk. Import style. PIN is his."
+    },
+      "id": "v34",
+      "name": "DESK 5.2",
+      "at": "2026-09-19",
+      "file": "https://github.com/xivionisnothere-droid/yandere-updates/releases/download/v34/yandere-forge.apk",
+      "view": "https://github.com/xivionisnothere-droid/yandere-updates/releases/tag/v34",
+      "note": "Slash intro. YANDERE spelled in slashes."
+    },
+      "id": "v33",
+      "name": "DESK 5.1",
+      "at": "2026-09-19",
+      "file": "https://github.com/xivionisnothere-droid/yandere-updates/releases/download/v33/yandere-forge.apk",
+      "view": "https://github.com/xivionisnothere-droid/yandere-updates/releases/tag/v33",
+      "note": "GET APK lists every GitHub release."
+    },
+    {
+      "id": "v32",
+      "name": "DESK 5.0",
+      "at": "2026-09-19",
+      "file": "https://github.com/xivionisnothere-droid/yandere-updates/releases/download/v32/yandere-forge.apk",
+      "view": "https://github.com/xivionisnothere-droid/yandere-updates/releases/tag/v32",
+      "note": "STUDIO rooms, SPIN, crew forge and check."
+    },
+    {
+      "id": "v31",
+      "name": "DESK 4.9",
+      "at": "2026-09-19",
+      "file": "https://github.com/xivionisnothere-droid/yandere-updates/releases/download/v31/yandere-forge.apk",
+      "view": "https://github.com/xivionisnothere-droid/yandere-updates/releases/tag/v31",
+      "note": "Fable Grok GPT crew on lyrics, cliches, style."
+    },
+    {
+      "id": "v30",
+      "name": "DESK 4.8",
+      "at": "2026-09-19",
+      "file": "https://github.com/xivionisnothere-droid/yandere-updates/releases/download/v30/yandere-forge.apk",
+      "view": "https://github.com/xivionisnothere-droid/yandere-updates/releases/tag/v30",
+      "note": "Forge unlocked. Full v6 More Options. STUDIO tab."
+    },
+    {
+      "id": "v29",
+      "name": "DESK 4.7",
+      "at": "2026-09-19",
+      "file": "https://github.com/xivionisnothere-droid/yandere-updates/releases/download/v29/yandere-forge.apk",
+      "view": "https://github.com/xivionisnothere-droid/yandere-updates/releases/tag/v29",
+      "note": "NSFW art stack. Character art. Crew."
+    },
+    {
+      "id": "v28",
+      "name": "DESK 4.6",
+      "at": "2026-09-19",
+      "file": "https://github.com/xivionisnothere-droid/yandere-updates/releases/download/v28/yandere-forge.apk",
+      "view": "https://github.com/xivionisnothere-droid/yandere-updates/releases/tag/v28",
+      "note": "GitHub OTA. Nightly builder."
+    },
+    {
+      "id": "v27",
+      "name": "DESK 4.5",
+      "at": "2026-09-19",
+      "file": "https://github.com/xivionisnothere-droid/yandere-updates/releases/download/v27/yandere-forge.apk",
+      "view": "https://github.com/xivionisnothere-droid/yandere-updates/releases/tag/v27",
+      "note": "First GitHub desk."
+    }
+  ]
+}
