@@ -92,14 +92,8 @@
     for (i = 0; i < buttons.length; i++) {
       if (!/^ASK VOX$/i.test(txt(buttons[i]))) continue;
       if (buttons[i].style.display === "none") continue;
-      var ptxt = "";
-      var node = buttons[i].parentElement;
-      var k;
-      for (k = 0; k < 4 && node; k++) {
-        ptxt += " " + txt(node);
-        node = node.parentElement;
-      }
-      if (/Learn v6/i.test(ptxt) || /(?:^|\s)Notes(?:\s|$)/i.test(ptxt)) hide(buttons[i]);
+      var ptxt = txt(buttons[i].parentElement);
+      if (/Learn v6/i.test(ptxt) || /^Notes\b/i.test(ptxt)) hide(buttons[i]);
     }
   }
   var ticking = false;
